@@ -2,9 +2,13 @@
 
 header {
     background-color: white;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    position: fixed;
 }
 
+.navigation_top {
+    display: inline;
+}
 
 h1 {
     width: 320px;
@@ -15,9 +19,7 @@ h1 {
     color: white;  
 }
 
-.navigation_top {
-     display: inline;
-}
+
 
 img {
     border: 1px solid #ddd;
@@ -30,5 +32,6 @@ img {
 
   footer {
       background-color: #666666;
+      position: sticky;
 
   }

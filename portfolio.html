@@ -9,29 +9,32 @@
     <!-- <script src='main.js'></script> -->
 </head>
 <body>
+  
+<!-- The header should have a fixed position at the top of the page along with a navigation bar -->
+<header class="fixed"> 
+  <h1>Leticia Romero</h1> 
+  <!--This nav bar will link to the other three html files -->
+  <nav class="topnavigation">
+    <ul>
+      <li class="navigation_about"> 
+          <a href="index.html">About</a> 
+      </li>
 
-<div class="container">
+      <li class="navigation_portfolio">
+        <a href="Portfolio.html">Portfolio</a>     
+      </li>
 
-    <!-- The name in this div should have a fixed position at the top of the page -->
- <div class="fixed">
-    <header> 
-        <h1>Leticia Romero</h1> 
+      <li class="navigation_contact">
+        <a href="contact.html">Contact</a>  
+      </li>
 
-        <ul class="navigation_top">
-            <li class="navigation_about"> 
-              <a href="index.html">About</a> 
-            </li>
-            <li class="navigation_portfolio">
-              <a href="Portfolio.html">Portfolio</a>     
-            </li>
-            <li class="navigation_contact">
-              <a href="contact.html">Contact</a>  
-            </li>
-        </ul>
-    
-    </header> 
+    </ul>
+  </nav>        
+      
+</header> 
  
-<h2>Portfolio</h2>
+<div class="portfoliocontainer">
+<h2 class="subheading">Portfolio</h2>
 
 <!-- using these images as placeholders for now -->
 <img src="assets/images/monkeyonhead.JPG" alt="Monkey on head">
@@ -40,10 +43,13 @@
 
 <img src="assets/images/temple.JPG" alt="picture at the temple">
 
+</div>
+
+<!-- this should be sticky -->
 <footer class="center">
     <p>copyright &copy; </p> 
 </footer>
 
-</div>    
+   
 </body>
 </html>

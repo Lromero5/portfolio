@@ -10,55 +10,53 @@
 </head>
 <body>
 
-<div class="container">
+<!-- The header should have a fixed position at the top of the page along with a navigation bar -->
+  <header class="fixed"> 
+    <h1>Leticia Romero</h1> 
+    <!--This nav bar will link to the other three html files -->
+    <nav class="topnavigation">
+      <ul>
+        <li class="navigation_about"> 
+            <a href="index.html">About</a> 
+        </li>
 
-    <!-- The name in this div should have a fixed position at the top of the page -->
-    <div class="fixed">
-        <header> 
-            <h1>Leticia Romero</h1> 
-    
+        <li class="navigation_portfolio">
+          <a href="Portfolio.html">Portfolio</a>     
+        </li>
+
+        <li class="navigation_contact">
+          <a href="contact.html">Contact</a>  
+        </li>
+
+      </ul>
+    </nav>        
         
-            <ul class="navigation_top">
-                <li class="navigation_about"> 
-                  <a href="index.html">About</a> 
-                </li>
-                <li class="navigation_portfolio">
-                  <a href="Portfolio.html">Portfolio</a>     
-                </li>
-                <li class="navigation_contact">
-                  <a href="contact.html">Contact</a>  
-                </li>
-            </ul>
-            
-        
-        </header> 
+   </header> 
      
-    </div>
 
   <!-- This div will contain the about me section, picture, and paragraphs-->  
- <div>   
-    <h2 class="bluefont">About Me </h2>
+<div class="maincontainer">   
+    <h2 class="subheading">About Me </h2>
 
-    <!-- This picture will have to be in line with the first paragraph -->
-  
-      <img class="image" src="assets/images/Planetarium picture.jpg">
-    
-    <p> Hello! My name is Leticia. I was born and raised in Chicago, IL. Currently, I am an elementary school teacher looking to make the switch to web development. I have been very lucky to have worked many years doing something I love. 
+    <!-- A line should be inserted here using css -->
+
+    <!-- This picture will have to be in line with the first paragraph. I added class to style it -->
+    <img class="inline" src="assets/images/Planetarium picture.jpg">
+
+    <p class="inline"> Hello! My name is Leticia. I was born and raised in Chicago, IL. Currently, I am an elementary school teacher looking to make the switch to web development. I have been very lucky to have worked many years doing something I love. 
         I look forward to what the future has for me. 
     </p>
 
-<br>
-    <p>This section will contain a second paragraph about me
+    <p class="inline"> Currently, I am attending Northwestern University's Coding Bootcamp in Chicago. I hope to learn all that the bootcamp has to offer. When I am not working or in school I enjoy spending time with my family and friends, traveling, or organizing game nights.
     </p>
 
-</div>
+  </div>
 
-
+<!-- this should be sticky -->
 <footer class="center">
    <p>copyright &copy; </p> 
 </footer>
 
-</div>
 
 </body>
 </html>

@@ -6,39 +6,40 @@
     <title>Contact</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
-    <!-- <script src='main.js'></script> --> -->
+    <!-- <script src='main.js'></script> -->
 </head>
 <body>
     
- <div class="container">
+<!-- The header should have a fixed position at the top of the page along with a navigation bar -->
+<header class="fixed"> 
+    <h1>Leticia Romero</h1> 
+    <!--This nav bar will link to the other three html files -->
+    <nav class="topnavigation">
+      <ul>
+        <li class="navigation_about"> 
+            <a href="index.html">About</a> 
+        </li>
 
-    <div class="fixed">
-        <header> 
-            <h1>Leticia Romero</h1> 
-    
-            <ul class="navigation_top">
-                <li class="navigation_about"> 
-                  <a href="index.html">About</a> 
-                </li>
-                <li class="navigation_portfolio">
-                  <a href="Portfolio.html">Portfolio</a>     
-                </li>
-                <li class="navigation_contact">
-                  <a href="contact.html">Contact</a>  
-                </li>
-            </ul>
+        <li class="navigation_portfolio">
+          <a href="Portfolio.html">Portfolio</a>     
+        </li>
+
+        <li class="navigation_contact">
+          <a href="contact.html">Contact</a>  
+        </li>
+
+      </ul>
+    </nav>        
         
-        </header> 
-     
-    </div>
+</header> 
+
+<div class="contactcontainer">
 
 <!-- this is the contact text. It will need to have a line below it -->
-        <h2 class="bluefont">Contact</h2>
+    <h2 class="subheading">Contact</h2>
 <!-- A line will have to be placed here -->
 
 <!-- took this code from w3 schools. Not sure how to make it work -->
-<div class="container">
-
     <form action="/action_page.php">
       <label for="name">Name</label>
       <br>
@@ -52,19 +53,17 @@
   <br>
       <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
   <br>
+  <!-- Should I add a <button> tag here? -->
       <input type="submit" value="Submit">
     </form>
 
-    </div>
+</div>
  
-<br>
 
-
-
+<!-- this should be sticky -->
 <footer class="center">
     <p>copyright &copy; </p> 
 </footer>
-</div>
 
 </body>
 </html>
