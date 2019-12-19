@@ -1,12 +1,13 @@
 /* This will be my css file for all three html files */
 
+/* I want the header to remain at the top of the page, should I add a fixed position to it?  */
 header {
     background-color: white;
     padding-top: 50px;
     position: fixed;
 }
 
-.navigation_top {
+.topnavigation {
     display: inline;
 }
 
@@ -19,13 +20,13 @@ h1 {
     color: white;  
 }
 
-
-
+/* my image is cut off when I add a fixed position */
 img {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
     width: 150px;
+
   }
 
 
