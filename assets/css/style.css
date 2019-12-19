@@ -9,7 +9,6 @@ body {
 
 header {
     background-color: white;
-    padding-top: 50px;
     border: #cccccc;
 }
 
@@ -24,18 +23,31 @@ h1 {
     border: 5px ;
     margin-left: 40px;
     background-color: teal;  
-    color: white;  
+    color: white;
+    display: inline-block;  
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ulcontainer {
+    display: inline-block;
+    float: right;
 }
 
 h2 {
     color: #4aaaa5;
+    border-bottom: 1px solid grey;
+    margin: 5px;
 }
 
+/* this is the container in the index.html file */
 .maincontainer {
     background-color: white;
     margin-left: 40px;
-    margin-right: 40px
-    ;
+    margin-right: 40px;
+    height: 365px;
+    width: 60%;
+    margin: auto;
 }
 /* my image gets cut off when I add a fixed position */
 img {
@@ -43,19 +55,26 @@ img {
     border-radius: 4px;
     padding: 5px;
     width: 150px;
+    float: left;
   }
 
 p {
     color: #777777;
+    line-height: 2;
 }
   /* this is the first paragraph in the about me section. */
-.inline {
+/* .inline {
     display: inline;
-}
+} */
 
   footer {
       background-color: #666666;
-      position: sticky;
+      position: fixed;
       text-align: center;
+      width: 100%;
+      bottom: 0px;
+  }
 
+  .ullinks {
+      display: inline-block;
   }
