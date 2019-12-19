@@ -1,18 +1,25 @@
 /* This will be my css file for all three html files */
 
 /* I want the header to remain at the top of the page, should I add a fixed position to it?  */
+
+body {
+    background-color: #ffffff;
+    border-color: #ddd;
+}
+
 header {
     background-color: white;
     padding-top: 50px;
-    position: fixed;
+    border: #cccccc;
 }
 
+/* how do I get the nav to move to the top right? */
 .topnavigation {
     display: inline;
 }
 
 h1 {
-    width: 320px;
+    width: 220px;
     padding: 10px;
     border: 5px ;
     margin: 0;
@@ -20,19 +27,28 @@ h1 {
     color: white;  
 }
 
-/* my image is cut off when I add a fixed position */
+h2 {
+    color: #4aaaa5;
+}
+/* my image gets cut off when I add a fixed position */
 img {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
     width: 150px;
-
   }
 
-
+p {
+    color: #777777;
+}
+  /* this is the first paragraph in the about me section. */
+.inline {
+    display: inline;
+}
 
   footer {
       background-color: #666666;
       position: sticky;
+      text-align: center;
 
   }
