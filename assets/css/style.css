@@ -3,7 +3,7 @@
 /* I want the header to remain at the top of the page, should I add a fixed position to it?  */
 
 body {
-    background-color: #ffffff;
+    background-color: grey;
     border-color: #ddd;
 }
 
@@ -22,13 +22,20 @@ h1 {
     width: 220px;
     padding: 10px;
     border: 5px ;
-    margin: 0;
+    margin-left: 40px;
     background-color: teal;  
     color: white;  
 }
 
 h2 {
     color: #4aaaa5;
+}
+
+.maincontainer {
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 40px
+    ;
 }
 /* my image gets cut off when I add a fixed position */
 img {
