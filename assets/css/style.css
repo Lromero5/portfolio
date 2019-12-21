@@ -7,9 +7,15 @@ body {
     border-color: #ddd;
 }
 
-header {
-    background-color: white;
-    border: #cccccc;
+.headercontainer {
+    background-color: white; 
+    /* the margins only look good when it's full screen. I have to fix that */
+    margin-left: 231px;
+    margin-right: 231px;
+    width: 960px
+
+    /* I can't get my bottom border to show */
+    border-bottom: 2px, solid, grey;
 }
 
 /* how do I get the nav to move to the top right? */
@@ -22,7 +28,7 @@ h1 {
     padding: 10px;
     border: 5px ;
     margin-left: 40px;
-    background-color: rgb(82, 160, 160);  
+    background-color: #4aaaa5;  
     color: white;
     display: inline-block;  
     margin-top: 0px;
@@ -32,6 +38,7 @@ h1 {
 .ulcontainer {
     display: inline-block;
     float: right;
+    margin-top: -25px;
 }
 
 h2 {
@@ -44,11 +51,13 @@ h2 {
 /* this is the container in the index.html file */
 .maincontainer {
     background-color: white;
+    margin-top: 30px:
     margin-left: 40px;
     margin-right: 40px;
     height: 365px;
     width: 960px;
     margin: auto;
+    
 }
 /* my image gets cut off when I add a fixed position */
 img {
@@ -84,10 +93,21 @@ p {
       background-color: white;
       height: 450px;
       width: 960px;
+      margin-left: 40px;
+      margin-right: 40px;
+      margin: auto;
   }
 
   .contactcontainer {
     background-color: white;
     height: 450px;
     width: 960px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin: auto;
+
+}
+
+.formpart {
+    width: 400px;
 }

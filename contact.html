@@ -11,27 +11,29 @@
 <body>
     
 <!-- The header should have a fixed position at the top of the page along with a navigation bar -->
-<header class="fixed"> 
-  <h1>Leticia Romero</h1> 
-  <!--This nav bar will link to the other three html files -->
-  <nav class="topnavigation">
-    <ul class="ulcontainer">
-      <li class="navigation_about ullinks" > 
-          <a href="index.html">About</a> 
-      </li>
+<header class="headercontainer"> 
+  <div class="namecontainer">
+     <h1>Leticia Romero</h1> 
+     </div>
+   <!--This nav bar will link to the other three html files -->
+   <nav class="topnavigation">
+     <ul class="ulcontainer">
+       <li class="navigation_about ullinks" > 
+           <a href="index.html">About</a> 
+       </li>
 
-      <li class="navigation_portfolio ullinks">
-        <a href="Portfolio.html">Portfolio</a>     
-      </li>
+       <li class="navigation_portfolio ullinks">
+         <a href="Portfolio.html">Portfolio</a>     
+       </li>
 
-      <li class="navigation_contact ullinks">
-        <a href="contact.html">Contact</a>  
-      </li>
+       <li class="navigation_contact ullinks">
+         <a href="contact.html">Contact</a>  
+       </li>
 
-    </ul>
-  </nav>        
-      
- </header> 
+     </ul>
+   </nav>        
+       
+  </header>  
 
 <div class="contactcontainer">
 
@@ -40,18 +42,18 @@
 <!-- A line will have to be placed here -->
 
 <!-- took this code from w3 schools. Not sure how to make it work -->
-    <form action="/action_page.php">
+    <form action="/action_page.php" class="formcontainer">
       <label for="name">Name</label>
       <br>
-      <input type="text" id="name" name="name" placeholder="Your name..">
+      <input type="text" class="formpart" id="name" name="name" placeholder="Your name..">
       <br>
       <label for="email">Email</label>
       <br>
-      <input type="text" id="email" name="email" placeholder="Your email.">
+      <input type="text" class="formpart" id="email" name="email" placeholder="Your email.">
   <br>
       <label for="message">Message</label>
   <br>
-      <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+      <textarea id="message" class="formpart" name="message" placeholder="Write something.." style="height:200px"></textarea>
   <br>
   <!-- Should I add a <button> tag here? -->
       <input type="submit" value="Submit">
