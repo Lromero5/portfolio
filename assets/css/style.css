@@ -32,7 +32,6 @@ h1 {
 }
 
 .ulcontainer {
-    display: inline-block;
     float: right;
     margin-top: -25px;
 }
