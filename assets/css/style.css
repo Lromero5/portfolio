@@ -1,6 +1,5 @@
 /* This will be my css file for all three html files */
 
-/* I want the header to remain at the top of the page, should I add a fixed position to it?  */
 
 body {
     background-color: lightgray;
@@ -10,9 +9,6 @@ body {
 .headercontainer {
     background-color: white; 
     /* the margins only look good when it's full screen. I have to fix that */
-    margin-left: 231px;
-    margin-right: 231px;
-    width: 960px
 
     /* I can't get my bottom border to show */
     border-bottom: 2px, solid, grey;
@@ -26,7 +22,7 @@ body {
 h1 {
     width: 220px;
     padding: 10px;
-    border: 5px ;
+    border: 5px;
     margin-left: 40px;
     background-color: #4aaaa5;  
     color: white;
@@ -51,7 +47,7 @@ h2 {
 /* this is the container in the index.html file */
 .maincontainer {
     background-color: white;
-    margin-top: 30px:
+    margin-top: 30px;
     margin-left: 40px;
     margin-right: 40px;
     height: 365px;
@@ -73,9 +69,6 @@ p {
     line-height: 2;
 }
   /* this is the first paragraph in the about me section. */
-/* .inline {
-    display: inline;
-} */
 
   footer {
       background-color: #666666;
